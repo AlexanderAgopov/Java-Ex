@@ -1,8 +1,8 @@
 
 public class toto6_49 {
-
+//This program prints all combination in a national lottery
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		// NEsted loops producing the combination
 		
 		for(int i1 = 1; i1 <= 44; i1++) {
 			for (int i2 = i1 + 1; i2 <= 45; i2++) {
