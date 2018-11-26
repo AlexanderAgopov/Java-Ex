@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="10.0.2" class="java.beans.XMLDecoder">
+ <object class="io.Order" id="Order0">
+  <void property="orderList">
+   <void method="add">
+    <object class="io.PVCWindow">
+     <void property="height">
+      <double>100.0</double>
+     </void>
+     <void property="lCmFrame">
+      <double>600.0</double>
+     </void>
+     <void property="sqCmGlass">
+      <double>20000.0</double>
+     </void>
+     <void property="width">
+      <double>200.0</double>
+     </void>
+     <void property="windowFramePrice">
+      <double>234.0</double>
+     </void>
+     <void property="windowGlassPrice">
+      <double>432.0</double>
+     </void>
+     <void property="windowPrice">
+      <double>150.0</double>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="io.PVCWindow">
+     <void property="height">
+      <double>100.0</double>
+     </void>
+     <void property="lCmFrame">
+      <double>600.0</double>
+     </void>
+     <void property="sqCmGlass">
+      <double>20000.0</double>
+     </void>
+     <void property="width">
+      <double>200.0</double>
+     </void>
+     <void property="windowFramePrice">
+      <double>234.0</double>
+     </void>
+     <void property="windowGlassPrice">
+      <double>432.0</double>
+     </void>
+     <void property="windowPrice">
+      <double>150.0</double>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="io.PVCWindow">
+     <void property="height">
+      <double>100.0</double>
+     </void>
+     <void property="lCmFrame">
+      <double>600.0</double>
+     </void>
+     <void property="sqCmGlass">
+      <double>20000.0</double>
+     </void>
+     <void property="width">
+      <double>200.0</double>
+     </void>
+     <void property="windowFramePrice">
+      <double>234.0</double>
+     </void>
+     <void property="windowGlassPrice">
+      <double>432.0</double>
+     </void>
+     <void property="windowPrice">
+      <double>150.0</double>
+     </void>
+    </object>
+   </void>
+  </void>
+  <void property="pricePerLMFrame">
+   <double>34.0</double>
+  </void>
+  <void property="pricePerSqMGlass">
+   <double>23.0</double>
+  </void>
+  <void property="totalLMFrame">
+   <double>18.0</double>
+  </void>
+  <void property="totalPriceFrame">
+   <double>612.0</double>
+  </void>
+  <void property="totalPriceGlass">
+   <double>138.0</double>
+  </void>
+  <void property="totalPriceOrder">
+   <double>750.0</double>
+  </void>
+  <void property="totalPriceString">
+   <string>Big order</string>
+  </void>
+  <void property="totalSqMGlass">
+   <double>6.0</double>
+  </void>
+ </object>
+</java>
