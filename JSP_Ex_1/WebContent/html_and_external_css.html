@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="desription" content="Test HTML and CSS">
+<meta name="keywords"
+	content="HTML, CSS, tags, list, paragraph, link, image">
+<meta name="author" content="A">
+<meta name="viewport" content="width=device-width, initial-scale = 1.0">
+<link rel="stylesheet" href="styles.css">
+<base target="_blank">
+<title>Test HTML and CSS</title>
+<script src="js.js">
+	
+</script>
+<script type="text/javascript">
+	function hideFunction() {
+		var x = document.getElementsByClassName("cities");
+		for (var i = 0; i < x.length; i++) {
+			x[i].style.display = 'none';
+		}
+	}
+
+	function showFunction() {
+		var x = document.getElementsByClassName("cities");
+		for (var i = 0; i < x.length; i++) {
+			x[i].style.display = 'block';
+		}
+	}
+
+	function changeGreetings() {
+		document.getElementById("greetings").innerHTML = "Goodbye! Have a nice day!";
+	}
+
+	function showDate() {
+		document.getElementById('d').innerHTML = Date();
+	}
+</script>
+</head>
+<body>
+	<div id="div1">
+		<ul id="menu">
+			<li><a href="#home">Home</a></li>
+			<li><a href="#news">News</a></li>
+			<li><a href="#contact">Contact</a></li>
+			<li><a href="#about">About</a></li>
+		</ul>
+	</div>
+	<br />
+	<h1>This is only a test</h1>
+	<p>Do not attend to leave the dance floor</p>
+	<br />
+	<br />
+	<table>
+		<caption>Title Rivals in 2019</caption>
+		<thead>
+			<tr>
+				<th>Pilot</th>
+				<th>Team</th>
+				<th>Years</th>
+		</thead>
+		<tbody>
+			<tr>
+				<td><span id="span1">Sebastian </span> Vettel</td>
+				<td>Scuderia Ferrari</td>
+				<td>31</td>
+			</tr>
+			<tr>
+				<td><span id="span2">Lewis</span> Hamilton</td>
+				<td>Mercedes Benz</td>
+				<td>33</td>
+			</tr>
+			<tr>
+				<td><span id="span3">Max</span> Verstappen</td>
+				<td>Red Bull Honda</td>
+				<td>20</td>
+			</tr>
+			<tr>
+				<td>Auto Bot</td>
+				<td colspan="2">Bat Mobile</td>
+			</tr>
+			<tr>
+				<td rowspan="3">Truck Racer</td>
+				<td colspan="2">The T.R.U.C.K.</td>
+			</tr>
+			<tr>
+				<td colspan="2">The T.R.U.C.K.</td>
+			</tr>
+			<tr>
+				<td colspan="2">The T.R.U.C.K.</td>
+			</tr>
+		</tbody>
+	</table>
+	<br />
+	<br />
+	<table id="table2018">
+		<caption>Title Rivals in 2018</caption>
+		<thead>
+			<tr>
+				<th>Pilot</th>
+				<th>Team</th>
+				<th>Years</th>
+		</thead>
+		<tbody>
+			<tr>
+				<td>Sebastian Vettel</td>
+				<td>Scuderia Ferrari</td>
+				<td>31</td>
+			</tr>
+			<tr>
+				<td>Lewis Hamilton</td>
+				<td>Mercedes Benz</td>
+				<td>33</td>
+			</tr>
+			<tr>
+				<td>Max Verstappen</td>
+				<td>Red Bull Honda</td>
+				<td>20</td>
+			</tr>
+			<tr>
+				<td>Auto Bot</td>
+				<td colspan="2">Bat Mobile</td>
+			</tr>
+			<tr>
+				<td rowspan="3">Truck Racer</td>
+				<td colspan="2">The T.R.U.C.K.</td>
+			</tr>
+			<tr>
+				<td colspan="2">The T.R.U.C.K.</td>
+			</tr>
+			<tr>
+				<td colspan="2">The T.R.U.C.K.</td>
+			</tr>
+		</tbody>
+	</table>
+	<p>
+		<a href="#p1"> Paragraph 1 </a><a href="#p2"> Paragraph 2 </a><a
+			href="#p3"> Paragraph 3 </a>
+	</p>
+	<img alt="natural scene" src="download.jpeg"
+		style="width: 513px; height: 340px" usemap="#scenemap">
+	<map name="scenemap">
+		<area alt="sky" shape="rect" coords="0,0,513,200"
+			href="https://en.wikipedia.org/wiki/Sky" target="_blank">
+		<area alt="mountains" shape="rect" coords="0,200,513,260"
+			href="https://en.wikipedia.org/wiki/Mountain" target="_blank">
+		<area shape="rect" alt="greenfield" coords="0,260,513,340"
+			href="https://en.wikipedia.org/wiki/Greenfield_land" target="_blank">
+	</map>
+	<br />
+	<br />
+	<p class="french">
+		You can check our site here: <a
+			href="http://librafoundation.bg/libra/" target="_blank"
+			title="This site contains info about human rights">link to
+			librafoundation.bg</a><br />And if you prefer something simple: <a
+			href="pure_html.html" target="sss" title="tralala">link to
+			another test page</a>
+	</p>
+	<br />
+	<br />
+	<p id="p1">
+		In computing, plain text is a loose term for data (e.g. file contents)
+		that represent only characters of readable material but not its
+		graphical representation nor other objects (floating-point numbers,
+		images, etc.). <img src="download.jpeg" alt="natural scene"
+			style="float: left; width: 320; height: 200">It may also
+		include a limited number of characters that control simple arrangement
+		of text, such as spaces, line breaks, or tabulation characters
+		(although tab characters can "mean" many different things, so are
+		hardly "plain"). Plain text is different from formatted text, where
+		style information is included; from structured text, where structural
+		parts of the document such as paragraphs, sections, and the like are
+		identified); and from binary files in which some portions must be
+		interpreted as binary objects (encoded integers, real numbers, images,
+		etc.). The term is sometimes used quite loosely, to mean files that
+		contain only "readable" content (or just files with nothing that the
+		speaker doesn't prefer). For example, that could exclude any
+		indication of fonts or layout (such as markup, markdown, or even
+		tabs); characters such as curly quotes, non-breaking spaces, soft
+		hyphens, em dashes, and/or ligatures; or other things. In principle,
+		plain text can be in any encoding, but occasionally the term is taken
+		to imply ASCII. As Unicode-based encodings such as UTF-8 and UTF-16
+		become more common, that usage may be shrinking. plain text is also
+		sometimes used only to exclude "binary" files: those in which at least
+		some parts of the file cannot be correctly interpreted via the
+		character encoding in effect. For example, a file or string consisting
+		of "hello" (in whatever encoding), following by 4 bytes that express a
+		binary integer that is not just a character, is a binary file, not
+		plain text by even the loosest common usages. Put another way,
+		translating a plain text file to a character encoding that uses
+		entirely different number to represent characters, does not change the
+		meaning (so long as you know what encoding is in use), but for binary
+		files such a conversion does change the meaning of at least some parts
+		of the file. Files that contain markup or other meta-data are
+		generally considered plain-text, so long as the markup is also in
+		directly human-readable form (as in HTML, XML, and so on (as Coombs,
+		Renear, and DeRose argue,[1] punctuation is itself markup; and no one
+		considers punctuation to disqualify a file from being plain text). The
+		use of plain text rather than binary files, enables files to survive
+		much better "in the wild", in part by making them largely immune to
+		computer architecture incompatibilities. For example, all the problems
+		of Endianness can be avoided (with encodings such as UCS-2 rather than
+		UTF-8, endianness matters, but uniformly for every character, rather
+		than for potentially-unknown subsets of it).
+	</p>
+	<br />
+	<br />
+	<p id="p2">Files that contain markup or other meta-data are
+		generally considered plain-text, as long as the entirety remains in
+		directly human-readable form (as in HTML, XML, and so on (as Coombs,
+		Renear, and DeRose argue,[3] punctuation is itself markup). The use of
+		plain text rather than bit-streams to express markup, enables files to
+		survive much better "in the wild", in part by making them largely
+		immune to computer architecture incompatibilities. According to The
+		Unicode Standard, "Plain text is a pure sequence of character codes;
+		plain Ue-encoded text is therefore a sequence of Unicode character
+		codes." styled text, also known as rich text, is any text
+		representation containing plain text completed by information such as
+		a language identifier, font size, color, hypertext links.[2] For
+		instance, rich text such as SGML, RTF, HTML, XML, wiki markup, and TeX
+		rely on plain text. According to The Unicode Standard, plain text has
+		two main properties in regard to rich text: "plain text is the
+		underlying content stream to which formatting can be applied." "Plain
+		text is public, standardized, and universally readable.".[2]</p>
+	<br />
+	<br />
+	<p id="p3">Before the early 1960s, computers were mainly used for
+		number-crunching rather than for text, and memory was extremely
+		expensive. Computers often allocated only 6 bits for each character,
+		permitting only 64 characters—assigning codes for A-Z, a-z, and 0-9
+		would leave only 2 codes: nowhere near enough. Most computers opted
+		not to support lower-case letters. Thus, early text projects such as
+		Roberto Busa's Index Thomisticus, the Brown Corpus, and others had to
+		resort to conventions such as keying an asterisk preceding letters
+		actually intended to be upper-case. Fred Brooks of IBM argued strongly
+		for going to 8-bit bytes, because someday people might want to process
+		text; and won. Although IBM used EBCDIC, most text from then on came
+		to be encoded in ASCII, using values from 0 to 31 for (non-printing)
+		control characters, and values from 32 to 127 for graphic characters
+		such as letters, digits, and punctuation. Most machines stored
+		characters in 8 bits rather than 7, ignoring the remaining bit or
+		using it as a checksum. The near-ubiquity of ASCII was a great help,
+		but failed to address international and linguistic concerns. The
+		dollar-sign ("$") was not so useful in England, and the accented
+		characters used in Spanish, French, German, and many other languages
+		were entirely unavailable in ASCII (not to mention characters used in
+		Greek, Russian, and most Eastern languages). Many individuals,
+		companies, and countries defined extra characters as needed—often
+		reassigning control characters, or using value in the range from 128
+		to 255. Using values above 128 conflicts with using the 8th bit as a
+		checksum, but the checksum usage gradually died out. These additional
+		characters were encoded differently in different countries, making
+		texts impossible to decode without figuring out the originator's
+		rules. For instance, a browser might display ¬A rather than ` if it
+		tried to interpret one character set as another. The International
+		Organisation for Standardisation (ISO) eventually developed several
+		code pages under ISO 8859, to accommodate various languages. The first
+		of these (ISO 8859-1) is also known as"Latin-1", and covers the needs
+		of most (not all) European languages that use Latin-based characters
+		(there was not quite enough room to cover them all). ISO 2022 then
+		provided conventions for"switching" between different character sets
+		in mid-file. Many other organisations developed variations on these,
+		and for many years Windows and Macintosh computers used incompatible
+		variations. The text-encoding situation became more and more complex,
+		leading to efforts by ISO and by the Unicode Consortium to develop a
+		single, unified character encoding that could cover all known (or at
+		least all currently known) languages. After some conflict,[citation
+		needed] these efforts were unified. Unicode currently allows for
+		1,114,112 code values, and assigns codes covering nearly all modern
+		text writing systems, as well as many historical ones and for many
+		non-linguistic characters such as printer's dingbats, mathematical
+		symbols, etc.</p>
+	<br />
+	<br />
+	<ol>
+		<li>Vettel</li>
+		<li>Hamilton</li>
+		<li>Verstappen</li>
+	</ol>
+
+	<ul>
+		<li id="a">A</li>
+		<li id="b">B</li>
+		<li id="c">C</li>
+	</ul>
+
+	<ul id="ul2">
+		<li>One</li>
+		<li>Two</li>
+		<li>Three</li>
+	</ul>
+
+	<ol type="A">
+		<li>Letter 1</li>
+		<li>Letter 2</li>
+		<li>Letter 3</li>
+	</ol>
+	<ol type="a">
+		<li>Letter 1</li>
+		<li>Letter 2</li>
+		<li>Letter 3</li>
+	</ol>
+	<ol type="I">
+		<li>Letter 1</li>
+		<li>Letter 2</li>
+		<li>Letter 3</li>
+	</ol>
+	<ol type="i">
+		<li>Letter 1</li>
+		<li>Letter 2</li>
+		<li>Letter 3</li>
+	</ol>
+	<br />
+	<br />
+	<h2>Description list</h2>
+	<dl>
+		<dt>Cars</dt>
+		<dd>Opel</dd>
+		<dd>Volksvagen</dd>
+		<dt>Bikes</dt>
+		<dd>Ducatti</dd>
+	</dl>
+	<h2>Nested List</h2>
+	<ul>
+		<li>Speed
+			<ul>
+				<li>320</li>
+				<li>310</li>
+			</ul>
+		</li>
+		<li>Time
+			<ul>
+				<li>1.28.089</li>
+				<li>1.29.443</li>
+			</ul>
+		</li>
+	</ul>
+	<h2>Change List Counting</h2>
+	<ol start="15">
+		<li>Perez</li>
+		<li>Gasly</li>
+		<li>Sirotkin</li>
+	</ol>
+
+	<br />
+	<br />
+	<button onclick="hideFunction()">Hide cities</button>
+	&nbsp;&nbsp;&nbsp;
+	<button onclick="showFunction()">Show cities</button>
+	<br />
+	<br />
+
+	<div class="cities french">
+		<h3>Paris</h3>
+		<p>Paris is the capital of France</p>
+	</div>
+	<div class="cities">
+		<h3>Berlin</h3>
+		<p>Berlin is the capital of Germany</p>
+	</div>
+	<div class="cities">
+		<h3>Rome</h3>
+		<p>Rome is the capital of Italy</p>
+	</div>
+	<h2 id="greetings">Welcome! Please press the button below.</h2>
+	<button onclick="changeGreetings()">Proceed</button>
+	<br />
+	<br />
+	<iframe id="ilibra" src="http://librafoundation.bg/libra/"
+		name="i_frame"></iframe>
+	<p>
+		<a
+			href="http://librafoundation.bg/libra/%D1%82%D0%B2%D0%BE%D0%B8%D1%82%D0%B5-%D0%BF%D1%80%D0%B0%D0%B2%D0%B0/%D0%B4%D0%B8%D1%81%D0%BA%D1%80%D0%B8%D0%BC%D0%B8%D0%BD%D0%B0%D1%86%D0%B8%D1%8F/"
+			target="i_frame">view a subpage dedicated to discrimination</a>
+
+	</p>
+	<br />
+	<br />
+	<button type="button" onclick="msg()">External JS</button>
+	<br />
+	<br />
+	<button type="button" onclick="showDate()">Date</button>
+	<p id="d"></p>
+	<img id="bulb1" alt="bulb" src="pic_bulboff.gif">
+	<button type="button" onClick="bulbOn()">Bulb ON</button>
+	&nbsp;&nbsp;&nbsp;
+	<button type="button" onclick="bulbOff()">Bulb OFF</button>
+	<p id="jsol">Let's try some styles in JS.</p>
+	<button type="button" onclick="setStyle()">Set the style of
+		the above</button>
+
+
+</body>
+</html>
