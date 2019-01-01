@@ -14,7 +14,6 @@ import com.java.ComparisonService;
 
 public class ComparisonServiceTestJUnit4 {
 	
-	@Mock
 	ComparisonService cs;
 	
 	@Mock
@@ -23,7 +22,6 @@ public class ComparisonServiceTestJUnit4 {
 	@Before
 	public void setUp() throws Exception {
 		MockitoAnnotations.initMocks(this);
-		calc = Mockito.mock(Calculator.class);
 		Mockito.when(calc.add(3, 3)).thenReturn((double) 6);
 		cs = new ComparisonService();
 		cs.setCal(calc);
