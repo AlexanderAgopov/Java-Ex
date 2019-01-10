@@ -1,11 +1,11 @@
-package com.solutions;
+package com.draft;
 
 import java.util.HashSet;
 
 public class FindAllPairsOfIntegersInArrayWhoseSumIsEqualToAGivenNumber {
 
 	/*
-	 * The task is to find app pairs of an integer array elements whose sum is equal
+	 * The task is to find all pairs of an integer array elements whose sum is equal
 	 * to a given number
 	 */
 
